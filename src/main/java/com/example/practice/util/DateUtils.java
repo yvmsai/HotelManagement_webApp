@@ -22,6 +22,7 @@ public class DateUtils {
            }
         }else{
             date = new Date();
+	 // Dummy practice
         }
         return date;
     }
