@@ -3,7 +3,7 @@ pipeline {
  tools {
    // Use the tool names you configured in Manage Jenkins → Tools
    jdk 'jdk17'
-   maven 'maven-3.9'
+   maven 'maven-3.9.4'
  }
  options {
    timestamps()
