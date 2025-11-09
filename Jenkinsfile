@@ -23,7 +23,7 @@ pipeline {
          $class: 'GitSCM',
          branches: [[name: '*/main']],        // adjust to your default branch
          userRemoteConfigs: [[
-           url: 'https://github.com/<org-or-user>/<repo>.git',
+           url: 'https://github.com/yvmsai/HotelManagement_webApp.git',
            // if private: credentialsId: 'github-creds-id'
          ]]
        ])
