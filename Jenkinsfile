@@ -12,7 +12,7 @@ pipeline {
  }
  triggers {
    // Use ONE of these:
-   // pollSCM('H/5 * * * *') // Poll every 5 minutes
+   pollSCM('H/5 * * * *') // Poll every 5 minutes
    // OR if you set a GitHub webhook, use:
    // githubPush()
  }
